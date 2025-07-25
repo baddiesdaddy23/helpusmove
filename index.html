@@ -3,8 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>We're Moving! - Help Us Move</title>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Help Us Move! Signup Page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
         :root {
@@ -27,7 +26,7 @@
         }
         
         body {
-            font-family: 'Inter', sans-serif;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
             background: linear-gradient(135deg, #f5f7ff 0%, #e6e9ff 100%);
             color: var(--dark);
             line-height: 1.6;
@@ -80,7 +79,6 @@
         }
         
         h1 {
-            font-family: 'Poppins', sans-serif;
             font-weight: 800;
             font-size: 4rem;
             margin-bottom: 20px;
@@ -89,7 +87,6 @@
         }
         
         .hero h2 {
-            font-family: 'Poppins', sans-serif;
             font-weight: 700;
             font-size: 2.2rem;
             margin-bottom: 30px;
@@ -128,7 +125,6 @@
         
         /* Content Sections */
         .section-title {
-            font-family: 'Poppins', sans-serif;
             text-align: center;
             font-size: 2.5rem;
             margin-bottom: 40px;
@@ -163,7 +159,6 @@
         }
         
         .card h3 {
-            font-family: 'Poppins', sans-serif;
             color: var(--primary);
             font-size: 1.8rem;
             margin-bottom: 20px;
@@ -236,7 +231,6 @@
         }
         
         .perk-card h4 {
-            font-family: 'Poppins', sans-serif;
             color: var(--secondary);
             margin-bottom: 10px;
             font-size: 1.4rem;
@@ -267,7 +261,8 @@
         
         input[type="text"],
         input[type="email"],
-        input[type="tel"] {
+        input[type="tel"],
+        textarea {
             width: 100%;
             padding: 15px;
             border: 2px solid #e2e8f0;
@@ -276,7 +271,7 @@
             transition: var(--transition);
         }
         
-        input:focus {
+        input:focus, textarea:focus {
             border-color: var(--primary);
             outline: none;
             box-shadow: 0 0 0 3px rgba(67, 97, 238, 0.2);
@@ -321,7 +316,6 @@
             padding: 16px 40px;
             border: none;
             border-radius: 50px;
-            font-family: 'Poppins', sans-serif;
             font-size: 1.1rem;
             font-weight: 600;
             cursor: pointer;
@@ -352,7 +346,6 @@
         }
         
         #thank-you h2 {
-            font-family: 'Poppins', sans-serif;
             color: var(--secondary);
             font-size: 2.5rem;
             margin-bottom: 20px;
@@ -380,7 +373,7 @@
             font-size: 0.95rem;
             color: #555;
         }
-        
+
         /* Animations */
         @keyframes fadeInDown {
             from {
@@ -476,25 +469,23 @@
     </style>
 </head>
 <body>
-    <!-- Hero Section -->
     <section class="hero">
         <div class="hero-content">
             <h1>We're Moving!</h1>
-            <h2>And we need your muscle 🏋️</h2>
+            <h2>And we'd love your help! 🏡</h2>
             
             <div class="date-card">
                 <p>Move-out date: July 31st</p>
-                <p>But we're looking for help Wednesday night (7/30)</p>
+                <p>But we're looking for helper's Wednesday night as well for those that can't help on Thursday!</p>
             </div>
             
             <div class="location">
-                <i class="fas fa-map-marker-alt"></i> Near Downtown, exact address will be texted after you sign up
+                <i class="fas fa-map-marker-alt"></i> Salt Lake, exact address will be sent after you sign up
             </div>
         </div>
     </section>
     
     <div class="container">
-        <!-- What We Need Section -->
         <section id="what-we-need">
             <h2 class="section-title">What We Need Help With</h2>
             
@@ -504,7 +495,7 @@
                     <li><i class="fas fa-box"></i> Lifting and carrying boxes</li>
                     <li><i class="fas fa-truck-loading"></i> Loading the moving van</li>
                     <li><i class="fas fa-hands-helping"></i> Moral support and encouragement</li>
-                    <li><i class="fas fa-pizza-slice"></i> Eating pizza (seriously, we ordered too much!)</li>
+                    <li><i class="fas fa-pizza-slice"></i> Eating pizza!</li>
                 </ul>
                 
                 <div class="time-info">
@@ -514,7 +505,6 @@
             </div>
         </section>
         
-        <!-- What You Get Section -->
         <section id="what-you-get">
             <h2 class="section-title">What You Get</h2>
             
@@ -526,62 +516,66 @@
                     <div class="perk-card">
                         <i class="fas fa-pizza-slice"></i>
                         <h4>Pizza Party</h4>
-                        <p>All the pizza you can eat! We've got vegetarian options too.</p>
+                        <p>All  options too.</p>
                     </div>
                     
                     <div class="perk-card">
-                        <i class="fas fa-cocktail"></i>
-                        <h4>Drinks</h4>
-                        <p>Beer, soda, water, and energy drinks to keep you going.</p>
+                        <i class="fas fa-glass-water"></i>
+                        <h4>Refreshments</h4>
+                        <p>Plenty of soda, juice, and water to keep you hydrated!</p>
                     </div>
                     
                     <div class="perk-card">
                         <i class="fas fa-heart"></i>
                         <h4>Eternal Gratitude</h4>
-                        <p>Our undying appreciation and friendship forever!</p>
+                        <p>Our undying appreciation forever!</p>
                     </div>
                     
                     <div class="perk-card">
-                        <i class="fas fa-pills"></i>
-                        <h4>Maybe an Adderall?</h4>
-                        <p>JK... unless? 😉 (Just kidding, please don't sue us)</p>
+                        <i class="fas fa-music"></i>
+                        <h4>Good Tunes</h4>
+                        <p>We'll have a fun playlist going to make the time fly by!</p>
                     </div>
                 </div>
             </div>
         </section>
         
-        <!-- Signup Form -->
         <section id="signup">
             <h2 class="section-title">Join the Moving Crew</h2>
             
             <div class="form-container">
                 <div class="card">
-                    <form id="signup-form">
+                    <form id="signup-form" 
+                          action="https://docs.google.com/forms/d/e/1FAIpQLScZcQNW7ulHOjw7RB8u8I6nyp4A9hmjg_hfmZ2GmCSyt4sH3Q/formResponse" 
+                          method="POST" 
+                          target="hidden_iframe" 
+                          onsubmit="submitted=true;">
+
                         <div class="form-group">
                             <label for="name">Your Name *</label>
-                            <input type="text" id="name" name="name" required placeholder="e.g. Alex Johnson">
+                            <input type="text" id="name" name="entry.2005620554" required placeholder="e.g. Alex Johnson">
                         </div>
                         
                         <div class="form-group">
                             <label for="contact">Phone or Email *</label>
-                            <input type="text" id="contact" name="contact" required placeholder="e.g. 555-1234 or alex@email.com">
+                            <input type="text" id="contact" name="entry.1045781291" required placeholder="e.g. 555-1234 or alex@email.com">
                         </div>
                         
                         <div class="checkbox-group">
                             <legend>Can you help?</legend>
                             
                             <div class="checkbox-option">
-                                <input type="checkbox" id="help-monday" name="help" value="monday">
-                                <label for="help-monday">✅ Yes on Wednesday night (7/30)</label>
+                                <input type="checkbox" id="help-wednesday" name="entry.839337160" value="Yes on Wednesday night (7/30)">
+                                <label for="help-wednesday">✅ Yes on Wednesday night (7/30)</label>
                             </div>
                             
                             <div class="checkbox-option">
-                                <input type="checkbox" id="help-tuesday" name="help" value="tuesday">
-                                <label for="help-tuesday">✅ Yes on Thursday (7/31)</label>
+                                <input type="checkbox" id="help-thursday" name="entry.839337160" value="Yes on Thursday (7/31)">
+                                <label for="help-thursday">✅ Yes on Thursday (7/31)</label>
                             </div>
                             
                             <div class="checkbox-option">
-                                <input type="checkbox" id="cant-help" name="help" value="cant">
+                                <input type="checkbox" id="cant-help" name="entry.839337160" value="Can't help but sending love">
                                 <label for="cant-help">❌ Can't help but sending love</label>
                             </div>
                         </div>
@@ -590,12 +584,12 @@
                             <legend>Special Skills (Optional)</legend>
                             
                             <div class="checkbox-option">
-                                <input type="checkbox" id="truck" name="truck" value="yes">
+                                <input type="checkbox" id="truck" name="entry.1889234854" value="I have a truck or large vehicle">
                                 <label for="truck">🚚 I have a truck or large vehicle</label>
                             </div>
                             
                             <div class="checkbox-option">
-                                <input type="checkbox" id="lift" name="lift" value="yes">
+                                <input type="checkbox" id="lift" name="entry.1889234854" value="I can lift heavy things">
                                 <label for="lift">💪 I can lift heavy things</label>
                             </div>
                         </div>
@@ -606,60 +600,36 @@
                     <div id="thank-you">
                         <h2>Thank You! 🎉</h2>
                         <p>We're so grateful you're joining our moving adventure! You'll receive the exact address and final details via text/email soon.</p>
-                        <p>Get ready for pizza, laughs, and the satisfaction of helping friends avoid a moving disaster! See you soon!</p>
+                        <p>Get ready for pizza, laughs, and the satisfaction of helping us avoid a more hernias! See you soon!</p>
                         <div style="font-size: 5rem; margin: 30px 0;">🤝</div>
                     </div>
                 </div>
                 
                 <div class="privacy">
-                    <p><i class="fas fa-lock"></i> <strong>Privacy Note:</strong> Your contact information will only be used to send the address and final moving details. No spam, no sharing, no weirdness. Promise!</p>
+                    <p><i class="fas fa-lock"></i> <strong>We ❤️ You!:</strong> Thank you for taking the time to review this!</p>
                 </div>
             </div>
         </section>
-    </div>
-    
+
+        <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {showThankYou();}"></iframe>
+    </div> 
+
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
+        // This variable helps the iframe know when to trigger the thank you message
+        let submitted = false;
+
+        // This function will hide the form and display your custom thank you message
+        function showThankYou() {
             const form = document.getElementById('signup-form');
             const thankYou = document.getElementById('thank-you');
             
-            form.addEventListener('submit', function(e) {
-                e.preventDefault();
-                
-                // Get form values
-                const name = document.getElementById('name').value;
-                const contact = document.getElementById('contact').value;
-                
-                // Hide form and show thank you message
-                form.style.display = 'none';
-                thankYou.style.display = 'block';
-                
-                // Smooth scroll to thank you message
-                thankYou.scrollIntoView({ behavior: 'smooth' });
-                
-                // Log the response to console (for your reference)
-                console.log('New signup received:');
-                console.log('Name:', name);
-                console.log('Contact:', contact);
-                console.log('Availability:', getSelectedOptions('help'));
-                console.log('Special Skills:', getSelectedOptions(['truck', 'lift']));
-            });
-            
-            // Helper function to get selected options
-            function getSelectedOptions(name) {
-                if (Array.isArray(name)) {
-                    const results = {};
-                    name.forEach(n => {
-                        results[n] = document.querySelector(`input[name="${n}"]:checked`) ? 'Yes' : 'No';
-                    });
-                    return results;
-                }
-                
-                const options = document.querySelectorAll(`input[name="${name}"]:checked`);
-                return Array.from(options).map(opt => opt.nextElementSibling.textContent);
-            }
-            
-            // Add subtle animations to cards when they come into view
+            form.style.display = 'none';
+            thankYou.style.display = 'block';
+            thankYou.scrollIntoView({ behavior: 'smooth' });
+        }
+
+        document.addEventListener('DOMContentLoaded', function() {
+            // This script adds subtle animations to cards when they scroll into view
             const cards = document.querySelectorAll('.card, .perk-card');
             
             const observer = new IntersectionObserver((entries) => {
